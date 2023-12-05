@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbe6aea-e9a2-4301-baaa-4441350f9a6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advent Of Code 2023.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/day1.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="7cbe6aea-e9a2-4301-baaa-4441350f9a6d" name="Changes" comment="Add day1 input file&#10;&#10;A new file named input.txt has been added to the day1 directory. The file contains encoded data needed for day 1's challenge/problem.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +70,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701770631601</updated>
-      <workItem from="1701770632747" duration="1934000" />
+      <workItem from="1701770632747" duration="2330000" />
     </task>
+    <task id="LOCAL-00001" summary="Add .idea configuration files&#10;&#10;This commit adds misc.xml, vcs.xml, modules.xml, and workspace.xml configuration files to the .idea directory. These files are essential for carrying the project settings related to various plugins, version control system configuration, and project output directory, among others.">
+      <option name="closed" value="true" />
+      <created>1701772785540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772785540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add package.json and package-lock.json files&#10;&#10;This commit includes the addition of package.json and package-lock.json files for the 'advent-of-code-2023' project. These files declare the project's dependencies and consist of necessary metadata for the project, such as module details, package dependencies for development and the project version.">
+      <option name="closed" value="true" />
+      <created>1701772798648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772798648</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create new tsconfig.json file&#10;&#10;This commit introduces a new tsconfig.json file for the project. The file defines TypeScript compiler options such as the module system, target ECMAScript version, and an output directory. It also specifies a runtime library (lib) for use with the project.">
+      <option name="closed" value="true" />
+      <created>1701772809926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772809926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create new Advent Of Code 2023.iml file&#10;&#10;This commit introduces a new 'Advent Of Code 2023.iml' file for the project. This file is essential for the web module of the project, setting parameters and defining the module's root manager output directory, orderEntry type, and source folder.">
+      <option name="closed" value="true" />
+      <created>1701772820492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772820492</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add new day1.ts file to read and process input data&#10;&#10;Introduces a script in TypeScript that reads an input file, processes its content into an array, and calculates the sum of its elements. The script, day1.ts, is designed to handle errors gracefully and to specifically process numeric elements, including repeating single-digit values.">
+      <option name="closed" value="true" />
+      <created>1701772828774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772828774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add day1 input file&#10;&#10;A new file named input.txt has been added to the day1 directory. The file contains encoded data needed for day 1's challenge/problem.">
+      <option name="closed" value="true" />
+      <created>1701772960653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701772960653</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +131,25 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add .idea configuration files&#10;&#10;This commit adds misc.xml, vcs.xml, modules.xml, and workspace.xml configuration files to the .idea directory. These files are essential for carrying the project settings related to various plugins, version control system configuration, and project output directory, among others." />
+    <MESSAGE value="Add package.json and package-lock.json files&#10;&#10;This commit includes the addition of package.json and package-lock.json files for the 'advent-of-code-2023' project. These files declare the project's dependencies and consist of necessary metadata for the project, such as module details, package dependencies for development and the project version." />
+    <MESSAGE value="Create new tsconfig.json file&#10;&#10;This commit introduces a new tsconfig.json file for the project. The file defines TypeScript compiler options such as the module system, target ECMAScript version, and an output directory. It also specifies a runtime library (lib) for use with the project." />
+    <MESSAGE value="Create new Advent Of Code 2023.iml file&#10;&#10;This commit introduces a new 'Advent Of Code 2023.iml' file for the project. This file is essential for the web module of the project, setting parameters and defining the module's root manager output directory, orderEntry type, and source folder." />
+    <MESSAGE value="Add new day1.ts file to read and process input data&#10;&#10;Introduces a script in TypeScript that reads an input file, processes its content into an array, and calculates the sum of its elements. The script, day1.ts, is designed to handle errors gracefully and to specifically process numeric elements, including repeating single-digit values." />
+    <MESSAGE value="Add day1 input file&#10;&#10;A new file named input.txt has been added to the day1 directory. The file contains encoded data needed for day 1's challenge/problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add day1 input file&#10;&#10;A new file named input.txt has been added to the day1 directory. The file contains encoded data needed for day 1's challenge/problem." />
   </component>
 </project>
